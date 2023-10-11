@@ -1,0 +1,24 @@
+.aniBG {
+  background: linear-gradient(270deg, rgba(247, 202, 201, .6), rgba(146, 168, 209, .6));
+  background-size: 400% 400%;
+
+  -webkit-animation: head-gradient 10s ease infinite;
+  -moz-animation: head-gradient 10s ease infinite;
+  animation: head-gradient 10s ease infinite;
+}
+
+@-webkit-keyframes head-gradient {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes head-gradient {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes head-gradient {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
