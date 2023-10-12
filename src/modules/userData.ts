@@ -13,7 +13,7 @@ const UserData = {
     details: [
       {
         floor: "Nickname",
-        value: "Joji",
+        value: "Joe (Known as Joji, Joseph)",
       },
       {
         floor: "Birth Date",
