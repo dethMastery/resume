@@ -16,7 +16,7 @@ export default function Me() {
           />
         </div>
         <div className="w-full">
-          <div className="px-12">
+          <div className="px-12 md:pt-4">
             <div className="font-medium">
               <h3 className="text-3xl py-1">{UserData.Me.name}</h3>
               <h5 className="text-2xl pt-1">{UserData.Me.subText[0]}</h5>

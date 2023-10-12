@@ -1,7 +1,11 @@
 import ParallaxBox from "./components/ParallaxBox";
+import Footer from "./components/Footer";
+
 import Head from "./components/pages/Head";
 import Me from "./components/pages/Me";
-import Footer from "./components/Footer";
+import Skills from "./components/pages/Skills";
+import Certificates from "./components/pages/Certificates";
+import WorkExperience from "./components/pages/WorksExp";
 
 function App() {
   return (
@@ -9,6 +13,9 @@ function App() {
       <Head />
       <ParallaxBox height="30vh" />
       <Me />
+      <Skills />
+      <Certificates />
+      <WorkExperience />
       <ParallaxBox height="40vh" />
       <Footer />
     </div>

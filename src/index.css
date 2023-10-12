@@ -9,3 +9,7 @@
 	font-family: 'IBM Plex Sans Thai', 'IBM Plex Sans JP', sans-serif;
 	transition: all .3s;
 }
+
+html, body {
+	scroll-behavior: smooth;
+}
