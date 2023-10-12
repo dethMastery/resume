@@ -1,11 +1,12 @@
 import "./Head.css";
-import UserData from "../modules/userData";
+import UserData from "../../modules/userData";
 
 export default function Head() {
   return (
     <div
       className="w-full h-screen !bg-cover !bg-no-repeat !bg-center"
       style={{ background: "url(/Head_BG.webp)" }}
+      id="head"
     >
       <div className="w-full h-full bg-ctp-base bg-opacity-60 backdrop-blur-sm">
         <div className="w-full h-full flex flex-row justify-center items-center text-center text-whitesmoke aniBG">
