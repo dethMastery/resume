@@ -47,6 +47,34 @@ const UserData = {
       },
     ],
   },
+  skills: [],
+  certificates: [
+    {
+      id: 0,
+      slug: "TESA2022",
+      name: "TESA: Top Gun Rally #16",
+      link: "",
+      img: "/Certs_TESA2023.webp",
+      desp: "Participate in TESA Top Gun Rally #16",
+    },
+    {
+      id: 1,
+      slug: "ResponsiveFrontEnd",
+      name: "Responsive Web Design",
+      link: "",
+      img: "/Certs_ResponsiveWeb.webp",
+      desp: "Complete FreeCodeCamp -- Responsive Web Design Lesson",
+    },
+    {
+      id: 2,
+      slug: "JSAlgorithm",
+      name: "JavaScript Algorithms and Data Structures",
+      link: "",
+      img: "/Certs_ResponsiveWeb.webp",
+      desp: "Complete FreeCodeCamp -- JavaScript Algorithms and Data Structures Lesson",
+    },
+  ],
+  workExp: [],
 };
 
 export default UserData;
