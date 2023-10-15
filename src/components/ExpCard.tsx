@@ -11,7 +11,7 @@ interface expData {
 
 export default function ExpCard(data: expData) {
   return (
-    <div className="min-w-[20rem] flex flex-row bg-ctp-text text-ctp-base rounded">
+    <div className="min-w-[20rem] flex flex-row bg-ctp-text text-ctp-base rounded hover:scale-110">
       <div
         className="min-w-[8rem] min-h-[8rem] !bg-cover !bg-no-repeat !bg-center rounded-l"
         style={{ background: `url(${data.data.img})` }}
