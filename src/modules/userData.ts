@@ -235,7 +235,14 @@ const UserData = {
       desp: "Complete FreeCodeCamp -- JavaScript Algorithms and Data Structures Lesson",
     },
   ],
-  workExp: [],
+  workExp: [
+    {
+      duration: "March 2023 - May 2023",
+      name: "20Scoops CNX",
+      position: "Intern Front-End Developer",
+      img: "/WorksExp_20scoopsCNX.webp",
+    },
+  ],
 };
 
 export default UserData;
